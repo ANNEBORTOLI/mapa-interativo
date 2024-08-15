@@ -17,9 +17,7 @@ Este projeto é uma aplicação web interativa que permite a visualização e fi
 
 ## Acessar projeto Online (Github Pages)
 
-```bash
-  https://annebortoli.github.io/mapa-interativo/
-```
+[Projeto Mapa Iterativo](https://annebortoli.github.io/mapa-interativo/)
 
 ## Como Rodar o Projeto Localmente
 
