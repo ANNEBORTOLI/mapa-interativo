@@ -15,6 +15,12 @@ Este projeto é uma aplicação web interativa que permite a visualização e fi
 - **JavaScript** com a **ArcGIS API for JavaScript** para a funcionalidade do mapa e interatividade.
 - **GitHub Pages** para hospedar a aplicação.
 
+## Acessar projeto Online (Github Pages)
+
+```bash
+  https://annebortoli.github.io/mapa-interativo/
+```
+
 ## Como Rodar o Projeto Localmente
 
 Para rodar o projeto localmente, siga os passos abaixo:
@@ -22,6 +28,24 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/ANNEBORTOLI/seu-repositorio.git
-   cd seu-repositorio
+   git clone git@github.com:ANNEBORTOLI/mapa-interativo.git mapa-interativo
+   cd mapa-interativo
    ```
+
+2. **Usando Live Server no VS Code**:
+
+```bash
+  http://localhost:5500
+```
+
+3. **Acesso Alternativo Sem o Live Server**:
+
+- Navegue até o diretório onde o projeto foi clonado.
+- Abra o arquivo index.html diretamente no navegador.
+
+## :technologist:Developer
+
+- [Github](https://github.com/ANNEBORTOLI)
+- [Linkedin](https://www.linkedin.com/in/anne-bortoli/)
+- [Blog](https://annebortoli-blog.fly.dev/)
+- [E-mail](annebortoli@gmail.com)
