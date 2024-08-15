@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa Interativo de Escolas - CEPERJ</title>
+    <!-- ArcGIS API for JavaScript -->
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.27/esri/themes/light/main.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://js.arcgis.com/4.27/"></script>
+  </head>
+  <body>
+    <header>Mapa Interativo das Escolas do Município do Rio de Janeiro</header>
+
+    <div id="viewDiv">
+      <div id="filterContainer">
+        <label>
+          <input
+            type="radio"
+            name="schoolType"
+            id="municipal"
+            value="Municipal"
+          />
+          Mostrar apenas escolas municipais </label
+        ><br />
+        <label>
+          <input type="radio" name="schoolType" id="private" value="Privada" />
+          Mostrar apenas escolas privadas </label
+        ><br />
+        <label>
+          <input type="radio" name="schoolType" id="all" value="All" checked />
+          Mostrar todas as escolas
+        </label>
+      </div>
+    </div>
+    <footer>
+      <a href="https://github.com/ANNEBORTOLI" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/anne-bortoli/" target="_blank"
+        >LinkedIn</a
+      >
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
