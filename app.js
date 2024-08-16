@@ -46,11 +46,10 @@ require([
   // Add the FeatureLayer using the external URL
   const featureLayer = new FeatureLayer({
     url: "https://gis-portal.westeurope.cloudapp.azure.com/server/rest/services/00_PUBLICACOES/edu_escolas_ceperj_2021/FeatureServer/0",
-    outFields: ["*"], // Retrieve all fields from the service
-    popupTemplate: popupTemplate // Attach the pop-up template to the layer
+    outFields: ["*"],
+    popupTemplate: popupTemplate
   });
 
-  // Add the FeatureLayer to the map
   map.add(featureLayer);
 
   // Event listener for filtering schools based on type
@@ -63,6 +62,6 @@ require([
   });
 
   document.getElementById("all").addEventListener("change", function () {
-    featureLayer.definitionExpression = null; // Show all schools
+    featureLayer.definitionExpression = null;
   });
 });

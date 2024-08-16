@@ -1,6 +1,7 @@
 # Mapa Interativo das Escolas do Município do Rio de Janeiro
 
-Este projeto é uma aplicação web interativa que permite a visualização e filtragem de escolas no município do Rio de Janeiro utilizando a ArcGIS API for JavaScript. A aplicação permite que os usuários filtrem as escolas por tipo (Municipal ou Privada) e visualizem informações detalhadas sobre cada escola.
+Este projeto é uma aplicação web interativa que permite a visualização e filtragem de escolas no município do Rio de Janeiro utilizando a ArcGIS API for JavaScript.
+A aplicação permite que os usuários filtrem as escolas por tipo (Municipal ou Privada) e visualizem informações detalhadas sobre cada escola.
 
 ## Funcionalidades
 
