@@ -65,7 +65,7 @@ require([
         value: "Privada",
         symbol: {
           type: "simple-marker",
-          color: "#FFC300",
+          color: "#bc4749",
           size: 8,
           outline: {
             color: "white",
