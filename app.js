@@ -43,11 +43,46 @@ require([
     `
   };
 
+  // Define a renderer to style the dots based on the school type
+  const renderer = {
+    type: "unique-value",
+    field: "TIPO_DEPENDENCIA",
+    uniqueValueInfos: [
+      {
+        value: "Municipal",
+        symbol: {
+          type: "simple-marker",
+          color: "#003566",
+          size: 8,
+          outline: {
+            color: "white",
+            width: 1
+          }
+        },
+        label: "Escola Municipal"
+      },
+      {
+        value: "Privada",
+        symbol: {
+          type: "simple-marker",
+          color: "#FFC300",
+          size: 8,
+          outline: {
+            color: "white",
+            width: 1
+          }
+        },
+        label: "Escola Privada"
+      }
+    ]
+  };
+
   // Add the FeatureLayer using the external URL
   const featureLayer = new FeatureLayer({
     url: "https://gis-portal.westeurope.cloudapp.azure.com/server/rest/services/00_PUBLICACOES/edu_escolas_ceperj_2021/FeatureServer/0",
     outFields: ["*"],
-    popupTemplate: popupTemplate
+    popupTemplate: popupTemplate,
+    renderer: renderer
   });
 
   map.add(featureLayer);
